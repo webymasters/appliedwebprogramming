@@ -1,0 +1,72 @@
+
+*
+{
+    /*for all */
+    
+}
+body
+{
+
+font-weight: normal;
+font-style: normal;
+font-size: 1.1em;
+line-height: 1.4;
+font-family: Arial, Helvetica, sans-serif;
+background: rgb(247,206,152);
+background: radial-gradient(circle, rgba(247,206,152,1) 38%, rgba(250,235,215,1) 56%, rgba(250,235,215,0.8477766106442577) 100%);
+/*
+Or we can write in one line
+font:normal normal 1.1em/1.4 Arial, Helvetica, sans-serif;
+*/
+}
+
+h1
+{
+
+    background-color: burlywood;
+    text-align: center;
+    font-size: 2em;/*'em' Multiple of current size which is 1.1 (body) */
+    /*background-image: url(../img/humber.jpg); */
+}
+
+.subhead
+{
+  background-color: coral;
+  font:normal 1em; /*normal is 400,bold is 700 */
+
+}
+
+address
+{
+    text-align: right;
+}
+abbr {
+    font-style: italic;
+    font-weight: 100;
+}
+
+.topimage
+{
+text-align: center;
+
+}
+blockquote {
+  
+
+    padding: 15px;
+    background: rgb(255, 198, 198);
+    border-radius: 5px;
+}
+
+.linkcolor
+{
+color: brown;
+
+}
+a{
+
+    color: crimson;
+    text-transform: uppercase;
+    text-decoration:dotted;
+    letter-spacing:1 ;
+}
